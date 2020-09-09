@@ -18,20 +18,14 @@ namespace toplogicalSort
             tSort.AddEdges(3,5);
             tSort.AddEdges(4,5);
 
-            if(tSort.TopologicalSort().Count== nodes)
-            {
-                 foreach (var item in tSort.TopologicalSort())
+         foreach (var item in tSort.TopologicalSort())
             {
                 Console.Write(" ");
                 Console.Write(item);
             }
 
-            }
-            else
-            {
-                Console.Write("The graph has Cycle in it");
-            }
-
+        
+           
            
 
         }

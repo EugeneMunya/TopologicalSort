@@ -20,8 +20,7 @@ namespace toplogicalSort
 
          foreach (var item in tSort.TopologicalSort())
             {
-                Console.Write(" ");
-                Console.Write(item);
+                Console.Write(item+" ");
             }
 
         
